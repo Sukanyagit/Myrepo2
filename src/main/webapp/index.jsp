@@ -3,6 +3,6 @@
 		<title>My First Application</title>
 	</head>
 	<body>
-		Hello World!
+		This is my 1st deployment to Tomcat.
 	</body>
 </html>
