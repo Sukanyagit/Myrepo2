@@ -1,8 +1,8 @@
-<!DOCTYPE>
+o<!DOCTYPE>
 	<head>
 		<title>My First Application</title>
 	</head>
 	<body>
-		This is my 2nd deployment to Tomcat.
+		Welcome to my Page.
 	</body>
 </html>
