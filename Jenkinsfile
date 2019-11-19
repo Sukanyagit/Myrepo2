@@ -3,8 +3,9 @@ node {
     def buildInfo
     def rtMaven 
     
-    stage ('Clone') {
-        git url: 'https://github.com/Sukanyagit/Myrepo2.git'
+     stage('checkout')
+    {
+        checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/Sukanyagit/MyRepo1.git']]])
     }
  
     stage ('Artifactory configuration') {
